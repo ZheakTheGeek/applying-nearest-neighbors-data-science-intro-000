@@ -3,11 +3,9 @@
 
 ### Introduction
 
-In the last lesson we derived the nearest neighbor formula.  Nearest neighbors is a powerful algorithm because it allows us to predict other attributes about people using their proximity data.  For example, those who live in a particular neighborhood may be more likely to be a certain age or have similar interests.  Using proximity, we might even be able to determine whether their likelihood to purchase a product approximates that of their neighbors.
+Nearest neighbors is a powerful algorithm because it allows us to predict other attributes about people using their proximity data.  For example, those who live in a particular neighborhood may be more likely to be a certain age or have similar interests.  Using proximity, we might even be able to determine whether their likelihood to purchase a product approximates that of their neighbors.
 
-In this lesson we'll see how the nearest neighbors algorithm allows us to make predictions with data.  We will also look at the workflow for machine learning in general and see some of the common struggles that we experience when applying a machine learning algorithm. 
-
-###  Learning Objectives
+### Objectives
 
 * See the machine learning process of Collect, Explore, Train, and Predict 
 * Use the nearest neighbors algorithm to predict other information about users
@@ -15,7 +13,7 @@ In this lesson we'll see how the nearest neighbors algorithm allows us to make p
 
 ### Explore the data (again)
 
-Once again, here are the locations of Bob and our customers.  This time let's add a fourth column for the number of purchases per year.
+Here are the locations of Bob and our customers.  Let's add a fourth column for the number of purchases per year.
 
 | Name | Avenue #| Block # | No. Purchases |
 |------|------| ------     |  
